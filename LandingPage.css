@@ -1,0 +1,36 @@
+body {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.credit {
+    color: navy;
+    text-align: center;
+}
+
+.homepage-image {
+    background-image: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNraW4lMjBjYXJlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#centered {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+    width: 120px;
+    
+  transition: all ease-in-out 0.2s;
+}
